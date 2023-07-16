@@ -77,5 +77,18 @@
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 		</dependency>
+	<distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<name>online-bookstore-nexus-release</name>
+			<url>http://3.94.52.7:8081/repository/online-bokstr-release/</url>
+		</repository>
+		<snapshotRepository>
+                     <id>nexus</id>
+                     <name>online-bookstore-snapshot</name>
+			<url>http://3.94.52.7:8081/repository/online-bokstr-snapshot/</url>
+		</snapshotRepository>
+	</distributionManagement>
 	</dependencies>
-</project>
+
+	</project>
