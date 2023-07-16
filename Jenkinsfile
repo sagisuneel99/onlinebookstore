@@ -7,5 +7,6 @@ pipeline {
               	    echo "repo cloned successfully"  
               	    }  
          	    } 
+stage()
         }
 }
